@@ -1,0 +1,70 @@
+body {
+    display: grid;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Raleway', sans-serif;
+    color: rgba(0,0,0,.5);
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .5rem;
+    align-items: center;
+    top: 15%;
+    
+}
+
+h1 {
+    font: 600 3.5rem 'Raleway', sans-serif;
+    color: rgba(0,0,0,.5);
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .5rem;
+    width: 100%;
+
+}
+
+ input[type=color]{
+    appearance: none;
+    border:none;
+    width: 3rem;
+    height: 3rem;
+    background: transparent;
+ }
+
+input[type=color]::-webkit-color-swatch {
+    border-radius: 50%;
+    border: 3px solid black;
+}
+
+#css-property {
+    text-align: center;
+    color: white;
+    font-size: 1.001rem;
+    border: 1px solid rgb(82, 79, 79);
+    border-radius: 20px;
+    background-color: rgb(82, 79, 79);
+    width: 30rem;
+    height: 2rem;
+}
+
+#rand-color-button {
+    margin: 10px;
+    background-color: rgb(49, 65, 62);
+    border: 3px solid rgb(49, 65, 62);
+    border-radius: 50px;
+    width: 8rem;
+    height: 3rem;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+#rand-color-button:hover {
+    background-color: rgb(33, 43, 41);
+    border-color: rgb(33, 43, 41);
+}
+
+#rand-color-button.pressed{
+    background-color: rgb(53, 61, 59);
+    border-color: rgb(53, 61, 59);
+}
